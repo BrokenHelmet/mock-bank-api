@@ -1,0 +1,21 @@
+{
+  "active_profile": "standard",
+
+  "profiles": {
+    "standard": {
+      "internal_transfer_flat_fee": 30.0,
+      "external_transfer_flat_fee": 100.0
+    },
+
+    "unfavourable": {
+      "internal_transfer_flat_fee": 75.0,
+      "external_transfer_flat_fee": 250.0
+    },
+
+    "percentage_heavy": {
+      "internal_transfer_flat_fee": 30.0,
+      "external_transfer_flat_fee": 100.0,
+      "external_transfer_percentage": 1.5
+    }
+  }
+}
